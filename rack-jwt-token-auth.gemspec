@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name              = 'rack-jwt-token-auth'
-  s.version           = '0.0.1'
+  s.version           = '0.0.2'
   s.date              = Date.today.to_s
   s.authors           = ['https://github.com/botanicus']
   s.summary           = 'JWT-based token authentication middleware.'
@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
 
   s.files             = ['README.md', *Dir.glob('**/*.rb')]
 
-  s.add_runtime_dependency('jwt', '~> 0')
+  s.add_runtime_dependency('jwt', '~> 1')
   s.add_runtime_dependency('rack', '~> 1')
 end
